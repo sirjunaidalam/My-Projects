@@ -1,0 +1,67 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: digital;
+  src: url(Digital.ttf);
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue;
+}
+
+#heading {
+  font-family: digital;
+  font-size: 30px;
+  color: green;
+  font-weight: bold;
+}
+form {
+  padding: 20px;
+  background-color: green;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px black;
+}
+#display {
+  width: 265px;
+  text-align: right;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-size: 40px;
+  background-color: black;
+  color: green;
+  font-family: digital;
+}
+
+.num_btn,
+.opt_btn,
+.fun_btn {
+  height: 50px;
+  margin-top: 5px;
+  border-radius: 10px;
+  font-size: 20px;
+  box-shadow: 1px 1px 1px black;
+}
+
+.num_btn {
+  width: 50px;
+}
+.opt_btn {
+  width: 50px;
+  background-color: yellow;
+  /* color: white; */
+}
+
+.fun_btn {
+  width: 104px;
+  background-color: red;
+  /* color: red; */
+}

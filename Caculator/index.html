@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div id="heading">
+      <marquee behavior="" direction="">Created By Junaid Alam</marquee>
+    </div>
+    <form action="">
+      <input id="display" type="text" disabled />
+      <div id="keypad">
+        <div id="row">
+          <button type="button" class="num_btn" onclick="addNumToDisplay(7)">
+            7
+          </button>
+          <button type="button" class="num_btn" onclick="addNumToDisplay(8)">
+            8
+          </button>
+          <button type="button" class="num_btn" onclick="addNumToDisplay(9)">
+            9
+          </button>
+          <button type="button" class="opt_btn" onclick="addOptToDisplay('+')">
+            +
+          </button>
+          <button type="button" class="opt_btn" onclick="addOptToDisplay('**')">
+            ^
+          </button>          
+        </div>
+        <div class="row">
+          <button type="button" class="num_btn" onclick="addNumToDisplay(4)">
+            4
+          </button>
+          <button type="button" class="num_btn" onclick="addNumToDisplay(5)">
+            5
+          </button>
+          <button type="button" class="num_btn" onclick="addNumToDisplay(6)">
+            6
+          </button>
+          <button type="button" class="opt_btn" onclick="addOptToDisplay('-')">
+            -
+          </button>
+          <button type="button" class="opt_btn" onclick="squareRoot()">
+            √
+          </button>
+        </div>
+        <div class="row">
+          <button type="button" class="num_btn" onclick="addNumToDisplay(1)">
+            1
+          </button>
+          <button type="button" class="num_btn" onclick="addNumToDisplay(2)">
+            2
+          </button>
+          <button type="button" class="num_btn" onclick="addNumToDisplay(3)">
+            3
+          </button>
+          <button type="button" class="opt_btn" onclick="addOptToDisplay('*')">
+            *
+          </button>
+          <button type="button" class="opt_btn" onclick="multiplicativeInverse()">
+            1/x
+          </button>
+        </div>
+        <div class="row">
+          <button type="button" class="num_btn" onclick="addNumToDisplay('-')">
+            ( - )
+          </button>
+          <button type="button" class="num_btn" onclick="addNumToDisplay(0)">
+            0
+          </button>
+          <button type="button" class="num_btn" onclick="addDecimalPoint()">
+            .
+          </button>
+          <button type="button" class="opt_btn" onclick="addOptToDisplay('/')">
+            /
+          </button>
+          <button type="button" class="opt_btn" onclick="addNumToDisplay('3.142')">
+            π
+          </button>            
+        <div class="row">
+          <button type="button" class="fun_btn" onclick="clearScreen()">
+            C
+          </button>
+          <button type="button" class="fun_btn" onclick="deleteCharacter()" style = "width:50px;">
+            Del
+          </button>
+          <button type="button" class="fun_btn" onclick="execute()" style = "background-color: yellow;">=</button>
+        </div>
+        </div>
+      </div>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>

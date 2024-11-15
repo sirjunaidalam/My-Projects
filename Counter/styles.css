@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue;
+  height: 90vh;
+}
+#heading{
+  background-image: linear-gradient(transparent, lightgray, white, lightgray, transparent);
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 25px;
+    text-align: center;
+    width: 65vw;
+    border-radius: 25px;
+    border-right:20px solid black;
+    border-left:20px solid black;
+    margin: 10px 0px;
+}
+#counter {
+    background-image: linear-gradient(transparent, blue,  transparent);
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    width: 65vw;
+    padding: 25px;
+    text-align: center;
+    border-radius: 25px;
+    border-right:20px solid black;
+    border-left:20px solid black;
+
+}

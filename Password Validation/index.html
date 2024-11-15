@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create New Account</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <marquee width = 280px><h1 style = "color: green";>Created by Junaid Alam</h1></marquee>
+    <h2>Create New Account</h2>
+    <form id="registrationForm">
+      <input
+        type="text"
+        id="nameInput"
+        placeholder="Full Name"
+        oninput="validateName()"
+      />
+      <input
+        type="email"
+        id="emailInput"
+        placeholder="Email ID"
+        oninput="validateEmail()"
+      />
+      <input
+        type="password"
+        id="passwordInput"
+        placeholder="New password"
+        oninput="validatePassword()"
+      />
+      <input
+        type="password"
+        id="passwordConfirm"
+        placeholder="Confirm password"
+        oninput="validateConfirmPassword()"
+      />
+      <button type="button" id="submitBtn" onclick="submitForm()">
+        Submit
+      </button>
+    </form>
+    <div id="nameOutput"></div>
+    <div id="emailOutput"></div>
+    <div id="passwordOutput"></div>
+    <div id="confirmPasswordOutput"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
