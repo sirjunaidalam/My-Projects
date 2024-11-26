@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Oxanium", sans-serif;
+}
+#inputAndButton{
+  margin-top: 50px;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+  
+  color: white;
+}
+#toDoInput {
+  padding: 10px;
+  border-radius: 15px;
+  max-width: 240px;
+  opacity: 0.5;
+  margin: 15px 5px;
+  border: none;
+}
+#addButton, #updateButton {
+  padding: 10px;
+  border-radius: 15px;
+  width: 100px;
+  color: white;
+  background-color: hsla(186, 100%, 50%, 0.25);
+  border: none;
+}
+
+#addButton:hover, #updateButton:hover {
+  color: hsla(186, 100%, 50%,1);
+  background-color:white;
+}
+
+.deleteButton, .editButton {
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(130, 164, 248);
+  border: none;
+}
+.deleteButton:hover, .editButton:hover {
+  color: rgb(130, 164, 248);
+  background-color: white;
+}
+#toDoList{
+  text-align: left;
+}
+.toDoItems {
+  margin: 10px;
+}
+.td-value{
+  width: 250px;
+  color: white;
+  text-align: left;
+  padding: 0px 15px;
+  background-color: hsla(285, 100%, 50%,.25);
+  border-radius: 10px;  
+}
