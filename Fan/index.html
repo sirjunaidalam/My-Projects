@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Fan Control</title>
+  </head>
+  <body>
+    <div id="fanControl">
+      <marquee behavior="" direction=""><h1>Created by Junaid Alam</h1></marquee>
+      <div id="fanContainer">
+          <img id="fan" src="Fan.png" alt="Fan" class="fan" />
+          <img id="fanJali" src="fan-jali.png" alt="Fan Cover" />
+      </div>
+      <div id="controls">
+        <button onclick="fanOff()">OFF</button>
+        <button onclick="fan1x()">1x</button>
+        <button onclick="fan2x()">2x</button>
+        <button onclick="fan3x()">3x</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

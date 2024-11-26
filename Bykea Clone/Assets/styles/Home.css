@@ -1,0 +1,317 @@
+@font-face {
+  font-family: Axiforma-Regular;
+  src: url(../fonts/Axiforma-Regular.ttf);
+}
+:root {
+  --color-1: #00aa2f;
+  --color-2: #242948;
+  --color-3: #f4f4f4;
+  --color-4: #7A7A7A;
+}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Axiforma-Regular;
+  color: var(--color-2);
+}
+body{
+  background-color: var(--color-3);;
+}
+.bg-color-1 {
+  background-color: var(--color-1) !important;
+  color: white !important;
+}
+.bg-color-2 {
+  background-color: var(--color-2) !important;
+}
+.bg-color-3 {
+  background-color: var(--color-3) !important;
+}
+.bg-color-4 {
+  background-color: var(--color-4) !important;
+}
+.text-color-1 {
+  color: var(--color-1) !important;
+}
+.text-color-2 {
+  color: var(--color-2) !important;
+}
+.text-color-3 {
+  color: var(--color-3) !important;
+}
+.text-color-4 {
+  color: var(--color-4) !important;
+}
+.text-color-white{
+  color: white !important;
+}
+.bg-color-white{
+  background-color: white !important;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-30 {
+  font-size: 30px;
+}
+.font-40{
+  font-size: 40px;
+}
+.font-bold{
+  font-weight: bold;
+}
+.container-90{
+  margin: 5%;
+}
+.container-95{
+  margin: 0px 2.5%;
+}
+/* -- Home Page -- */
+/* Nav Bar */
+ nav{
+  background-color: #f6f6f6;
+}
+nav img{
+  margin-left: 3.5vw;
+}
+nav .navbar-collapse {
+  display: flex;
+  justify-content: right;
+}
+nav a {
+  color: var(--color-1) !important;
+}
+nav .nav-item {
+  margin: 0px 10px;
+  padding: 0px 5px;
+}
+nav .dropdown-item {
+  padding: 15px 10px !important;
+  margin: 0px !important;
+  font-size: 14px !important;
+}
+nav .dropdown-menu {
+  border: none;
+  padding: 0px !important;
+}
+nav li button {
+  background-color: var(--color-1) !important;
+  color: white !important;
+  padding: 8px 20px !important;
+}
+nav li button:hover {
+  background-color: white !important;
+  color: var(--color-1) !important;
+}
+nav .navbar-toggler{
+  border: none;
+}
+nav .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 170, 47, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+.navbar .dropdown:hover .dropdown-menu {
+  display: block;
+}
+/* header */
+
+header p{
+  max-width: 900px;
+}
+/* Tab Section */
+#tab-sec .row{
+margin-left:0px !important ;
+}
+#myTabContent{
+  box-shadow: 0px 10px 10px lightgray;
+}
+#myTabContent img{
+  max-width: 100%;
+  margin: auto 0px;
+}
+#tab-sec .img-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#tab-sec .nav-tabs{
+  border: none;
+  outline: none;
+} 
+#tab-sec .nav-link{
+  padding: 10px 20px !important;  
+  border-radius: 20px 20px 0px 0px !important;
+  border: none;
+}
+#tab-sec .nav-link:enabled{
+  color: black;
+}
+#tab-sec .nav-link:active{
+  color: var(--color-1) !important;
+}
+/* Slider */
+
+
+/* Why Choose Bykea */
+#why-choose-bykea #store-icon img{
+  height: 50px;
+  width: auto;
+  padding: 5px;
+}
+
+
+/* safety-accessability */
+#safety-accessability .card, #safety-accessability img, #career-partner .card, #career-partner img{
+  border-radius: 20px;
+}
+
+/* About Bykea */
+#about-bykea button:hover{
+transform: scale(.9);
+transition: transform .3s linear;
+}
+
+/* customer experinces */
+#customers-experiences{
+  margin: 100px 0px;
+}
+.progress-container {
+  position: absolute;
+  bottom: 50px;
+  right: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  gap: 10px;
+}
+
+.progress {
+  width: 40px;
+  height: 10px;
+  background-color: #CED3D5;
+}
+
+.progress-bar {
+  background-color: var(--color-1);
+  transition: width  3s linear;
+}
+
+#customers-experiences img{
+  max-width: 100%;
+}
+
+/* media querry */
+@media (max-width:425px) {
+  #customers-experiences, #video-ad{
+    display: none;
+  }
+  
+}
+
+/* -- About Us Page -- */
+
+/* bykea for you */
+#bykea-for-you button div{
+  background-color: var(--color-3);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+/* why bykea */
+#why-bykea img{
+  width: 25%;
+  margin: 20px;
+} 
+
+/* opportunities */
+#opportunities{
+  background-image: linear-gradient(transparent 75%, var(--color-2) 25%);
+}
+
+.carousel-indicators  {
+  display: none;
+}
+
+/* Style the custom indicators */
+.carousel-indicators img {
+  width: 60px; /* Adjust the size as needed */
+  height: auto;
+  border: 2px solid #000; /* Optional: add a border */
+}
+
+/* -- Contact Bykea Page */
+#contact-header{
+  background-image: url(../images/contact-bykea-images/Group-3973.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 370px;
+}
+
+footer{
+  background-color: #242948;
+}
+#footer-first-sec{
+  padding: 50px 0px 20px ;
+  border-bottom: 1px solid white;
+}
+#footer-logo{
+  width: 30%;
+  height: auto;
+  margin: 0px 0px 20px 0px;
+}
+footer ul{
+  padding: 0;
+}
+footer #footer-first-sec li{
+  margin: 10px 0px;
+}
+.footer-icon{
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-icon img{
+height: 45px;
+width: auto;
+padding: 5px 5px 5px 0px;
+}
+.footer-icon img:hover{
+  transform: scale(0.9);
+  transition: all .5s;
+}
+footer h4{ 
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 20px 0px;
+}
+.footer-links a{
+  color: white;
+  font-size: 14px;
+}
+.footer-copy-right-section{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 30px 0px;
+}
+.footer-copy-right-links a{
+  color: white;
+  font-size: 14px;
+  margin: 0px 10px;
+}
