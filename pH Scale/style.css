@@ -1,0 +1,103 @@
+@font-face {
+  font-family: science-2;
+  src: url(./fonts/science-2.otf);
+}
+body {
+  font-family: science-2;
+  background-color: lightgray;
+}
+h1 {
+  color: #fff;
+  background-color: #391a8b;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+td {
+  color: #fff;
+  padding: 3px;
+  margin: 0;
+  font-size: 22px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+span {
+    display: inline-block;  
+    text-align: center;
+    transform: rotateZ(-90deg);
+    
+  }
+#span1{
+  background-image: linear-gradient(#e3202d,#fdca34, #50b31f);
+}
+#span2{
+    background-color: #15991f;
+}
+#span3{
+  background-image: linear-gradient(#17a55e,#0b50c4, #391a8b);
+}
+
+#zero {
+  background-color: #e3202d;
+  width: 100%;
+}
+
+#one {
+  background-color: #f65531;
+}
+
+#two {
+  background-color: #fda338;
+}
+
+#three {
+  background-color: #fdca34;
+}
+
+#four {
+  background-color: #dcdc3d;
+}
+
+#five {
+  background-color: #95d433;
+}
+
+#six {
+  background-color: #50b31f;
+}
+
+#seven {
+  background-color: #15991f;
+}
+
+#eight {
+  background-color: #17a55e;
+}
+
+#nine {
+  background-color: #1ebfb7;
+}
+
+#ten {
+  background-color: #1588c4;
+}
+
+#eleven {
+  background-color: #0b50c4;
+}
+
+#twelve {
+  background-color: #342eb2;
+}
+
+#thirteen {
+  background-color: #4822b2;
+}
+
+#fourteen {
+  background-color: #391a8b;
+}
