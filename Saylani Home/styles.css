@@ -1,0 +1,323 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Poppins;
+}
+:root {
+  --color-1: #0d6db7;
+  --color-2: #8dc63f;
+}
+.bg-color-1 {
+  background-color: var(--color-1);
+  color: white;
+}
+.bg-color-2 {
+  background-color: var(--color-2);
+  color: white;
+}
+.text-color-1 {
+  color: var(--color-1);
+}
+.text-color-2 {
+  color: var(--color-2);
+}
+container-90 {
+  width: 90%;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.sec-head {
+  text-align: center;
+  margin: 40px;
+}
+.fw-img {
+  width: 100%;
+}
+.font-10 {
+  font-size: 10px;
+}
+.font-12 {
+  font-size: 12px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.hover-scale-effect:hover{
+  transform:scale(1.1);
+  transition: transform .5s;
+}
+#top-bar {
+  padding: 5px;
+  background-color: #EEEEEE;
+  font-weight: bold;
+  color: gray;
+}
+#lang-btn {
+  font-size: 12px !important;
+  margin-top: 0px !important;
+}
+.icon {
+  width: 15px !important;
+}
+.flag {
+  width: 20px;
+  margin: 5px;
+}
+.top-bar-element {
+  font-size: 12px;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#nav-bar {
+  font-size: 14px;
+  box-shadow: 0px 1px 3px gray;
+  padding: 0px 25px;
+}
+.navbar-nav{
+  display: flex;
+  align-items: center;
+}
+.nav-item {
+  margin: 0px 5px;
+}
+#navbar-logo {
+  width: 200px;
+  margin: 0px 25px;
+}
+/* other webiste color animation */
+@keyframes colorChange {
+  0% {
+    color: var(--color-2);
+  }
+  50% {
+    color: var(--color-1);
+  }
+  100% {
+    color: var(--color-2);
+  }
+}
+.color-animation {
+  animation: colorChange 1s infinite;
+}
+.btn-nav {
+  font-size: 12px;
+  padding: 10px 30px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+}
+header {
+  background-image: url(assets/images/header-background.png);
+  background-size: contain;
+}
+#donation-form {
+  padding: 30px 15px;
+  border-radius: 10px;
+  background-color: #f0fcdb;
+  display: flex;
+  margin: 15px 0px;
+}
+.donation-general-box {
+  border-radius: 5px 0px 0px 5px;
+  padding: 11px;
+  background-color: black;
+  color: white;
+}
+.donation-rs-box {
+  border-radius: 0px 5px 5px 0px;
+  padding: 11px;
+  background-color: black;
+  color: white;
+}
+.donation-amount{
+  margin: 10px 0px;
+  padding: 15px 10px;
+}
+#donation-amount-box, #donation-amount-box-form{
+  width: 100%;
+}
+.btn-donation{
+  margin: 10px 5px;
+  padding: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  color: gray;
+  border-radius: 10px;
+}
+.quick-donate{
+  margin: 10px 0px;
+  padding: 15px 20px;
+  width: 100%;
+}
+.btn-donation:hover{
+  background-color: black !important;
+  color: white !important;
+  transform: scale(1.1);
+  transition: all .2s linear;
+}
+.btn-check:checked + label{
+  background-color: black !important;
+  color: white !important;
+}
+.services-box {
+  background-color: #f3fce2;
+  border-radius: 20px;
+  padding: 20px 30px;
+  margin: 10px 0px;
+  height: 150px;
+}
+.services-text {
+  text-align: center;
+}
+.sevices-2-text {
+  color: white;
+  font-weight: bold;
+}
+.services-box:hover{
+  transform: scale(1.2);
+  transition: all 250ms ease;
+}
+.btn-sevice-donate {
+  border-radius: 10px;
+  width: 100%;
+}
+#sponsor-it-student {
+  background-image: url(assets/images/sponsor-it-students.jpg);
+  background-size: cover;
+  min-height: 250px;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0px;
+  display: grid;
+  align-content: end;
+}
+#daily-food {
+  background-image: url(assets/images/daily-food.jpg);
+  background-size: cover;
+  min-height: 250px;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0px;
+  display: grid;
+  align-content: end;
+}
+#sponsor-voc-student {
+  background-image: url(assets/images/sponsor-vocational-students.jpg);
+  background-size: cover;
+  min-height: 250px;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0px;
+  display: grid;
+  align-content: end;
+}
+#other-proj{
+  margin: 30px 0px;
+}
+#image-with-text {
+  border-radius: 100px 0px 0px 0px;
+  background-image: url(assets/images/Saylani-Welfare-Trust.jpg);
+  background-size: cover;
+}
+#text-on-image {
+  border-radius: 100px 0px 0px 0px;
+  background-color: var(--color-2);
+  padding: 20px 50px 0px 50px;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+.blank-box-white-border {
+  width: 50%;
+  height: 250px;
+  border: 1px solid white;
+}
+
+.image-frame {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+#counter-div {
+  background-image: url(assets/images/upcoming_background.png);
+  background-size: cover;
+  padding: 100px 0px;
+}
+.counter-div {
+  text-align: center;
+}
+
+.carousel-image{
+width: 150px;
+border-radius: 50%;
+}
+#food-counter-div,
+#family-counter-div,
+#edu-counter-div,
+#medical-counter-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-rounded-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+.counter-text {
+  color: white;
+  font-size: 12px;
+}
+.video-thumbnail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.play-button {
+  width: 25%;
+}
+.news-date {
+  margin: 15px;
+}
+#saylani-guide {
+  background-image: url(assets/images/guide_back.png);
+  background-color: var(--color-1);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#btn-sub {
+  padding: 10px;
+  width: 500px;
+}
+#email {
+  width: 500px;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px white solid;
+  box-shadow: none;
+  color: white !important;
+}
+@media (max-width: 576px) {
+  #header-image{
+    display: none;
+  }
+  
+}
